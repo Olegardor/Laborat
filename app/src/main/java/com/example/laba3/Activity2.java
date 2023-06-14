@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -18,6 +19,7 @@ import java.io.FileNotFoundException;
 
 public class Activity2 extends AppCompatActivity {
     ContactItem contact;
+    ListView listView10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
