@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private String a;
 
     private Uri imageUri;
-    ContactItem contact = new ContactItem();;
+    ContactItem contact = new ContactItem();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
