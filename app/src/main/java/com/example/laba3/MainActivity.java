@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public  void Method () {
+
+    }
+
     private void restoreState(){//обновленние состояния активити
         if(contact.getName()!=null)
             ((EditText)findViewById(R.id.editTextName)).setText(contact.getName());//выносим данные с класса в поле ввода
