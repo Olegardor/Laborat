@@ -21,6 +21,7 @@ import java.io.InputStream;
 public class MainActivity extends AppCompatActivity {
     private ImageView imageAva;
     private final int Pick_image = 1;
+    private String a;
 
     private Uri imageUri;
     ContactItem contact = new ContactItem();;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         restoreState();
     }
 
+
+
     //Кнопка "Далее"
     public void clickNext(View view) {
         Intent intent = new Intent(this, Activity2.class);
@@ -55,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public  void Method () {
+    public void Method2 () {
 
     }
 
